@@ -1,5 +1,5 @@
 import streamlit as st
-from scipy.optimize import minimize
+from scipy import optimize
 import numpy as np
 
 def optimize_function(x):
@@ -21,7 +21,3 @@ def optimize():
 
 if __name__ == '__main__':
     optimize()
-
-
-
-
