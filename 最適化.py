@@ -1,5 +1,5 @@
 import streamlit as st
-from scipy import optimize
+from scipy.optimize import minimize
 import numpy as np
 
 def optimize_function(x):
